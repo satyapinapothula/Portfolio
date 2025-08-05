@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Satya Sai Durga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+      user-select: none;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 10px rgba(255, 106, 0, 0.7);
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #ff6a00aa;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+
+    nav {
+      margin-bottom: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #e0e0e0;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 12px 22px;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+      font-size: 1.1rem;
+      box-shadow: 0 0 8px rgba(255, 106, 0, 0.2);
+      user-select: none;
+    }
+
+    nav a:hover, nav a:focus {
+      background: #ff6a00;
+      color: white;
+      box-shadow: 0 0 15px #ff6a00;
+      transform: translateY(-4px);
+      outline: none;
+    }
+
+    section {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      padding: 30px 40px;
+      max-width: 850px;
+      width: 100%;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 30px rgba(255, 106, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #ff6a00;
+      border-bottom: 3px solid #ee0979;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      user-select: none;
+    }
+
+    p, ul {
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    .project-item ul li {
+      list-style-type: square;
+    }
+
+    a {
+      color: #ff6a00;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover, a:focus {
+      color: #ee0979;
+      text-decoration: underline;
+      outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #ff6a0099;
+      user-select: none;
+    }
+
+    .resume-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #111;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(238, 9, 121, 0.6);
+      transition: all 0.3s ease;
+      user-select: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 5px rgba(255,255,255,0.7);
+    }
+
+    .resume-button:hover, .resume-button:focus {
+      background: linear-gradient(90deg, #ee0979, #ff6a00);
+      box-shadow: 0 10px 30px rgba(255, 106, 0, 0.9);
+      transform: translateY(-5px);
+      outline: none;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      nav a {
+        font-size: 1rem;
+        padding: 10px 18px;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PINAPOTHULA SATYA SAI DURGA</h1>
+    <p>Undergraduate | Cyber Security & Data Science Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am <strong>Pinapothula Satya Sai Durga</strong>, a future-ready <strong>Computer Science Engineer</strong> from <strong>RGUKT Ongole</strong>, deeply engaged in <strong>Cyber Security</strong>, <strong>Data Science</strong>, and <strong>Full Stack Web Development</strong>. I thrive on engineering scalable software systems using modern technical stacks and security-first principles.
+    </p>
+    <p>
+      Technically proficient in <strong>Java, Python, C, SQL</strong> and full-stack tools like <strong>HTML5, CSS3, JavaScript (ES6+), React.js, Node.js, MongoDB</strong>. Adept at applying RESTful APIs, authentication protocols, and agile methodologies to real-world applications.
+    </p>
+    <p>
+      My notable project, <em><strong>Vivaha Vibes</strong></em>, is a full-stack wedding planner web application integrating secure login systems, vendor analytics, and elegant UI components. Certified in <strong>IBM Python 101</strong> and currently advancing my skillset with <strong>NPTEL courses</strong> in Artificial Intelligence and Cloud Computing.
+    </p>
+    <button class="resume-button" onclick="window.open('https://drive.google.com/your-resume-link', '_blank')">Download Resume</button>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>RGUKT Ongole</h3>
+      <p><strong>B.Tech in Computer Science and Engineering (2023 – 2027)</strong></p>
+    </div>
+    <div class="edu-item">
+      <h3>PUC – RGUKT Ongole</h3>
+      <p><strong>Stream:</strong> MPC (2021 – 2023)</p>
+    </div>
+    <div class="edu-item">
+      <h3>Municipal High School, Ponnur</h3>
+      <p><strong>SSC – Andhra Pradesh Board (2018 – 2019)</strong></p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming:</strong> Java, Python, C, SQL</li>
+      <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
+      <li><strong>Databases:</strong> MongoDB, MySQL</li>
+      <li><strong>Tools & Platforms:</strong> Git, VS Code, Postman, Firebase</li>
+      <li><strong>Specializations:</strong> Cyber Security, Data Science, Full Stack Engineering</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-item">
+      <h3>Vivaha Vibes – Wedding Planning Web Platform</h3>
+      <p><strong>Duration:</strong> Aug 2025 – Present</p>
+      <ul>
+        <li>Integrated secure vendor & user authentication systems</li>
+        <li>Developed using React.js, Node.js, Express, MongoDB</li>
+        <li>Emphasized responsive UI and efficient booking architecture</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>IBM Python 101:</strong> <a href="https://courses.cognitiveclass.ai/certificates/6111b70ce73540ceaa4d92416a9f74bd" target="_blank" rel="noopener noreferrer">View Certificate</a></li>
+      <li><strong>NPTEL – Artificial Intelligence</strong> (Ongoing)</li>
+      <li><strong>NPTEL – Cloud Computing</strong> (Ongoing)</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Strategic thinking through <strong>chess</strong> to enhance problem-solving skills</li>
+      <li>Immersing in <strong>music</strong> to stimulate creativity and focus</li>
+      <li>Exploring <strong>technology podcasts</strong> and <strong>cybersecurity trends</strong> to stay ahead</li>
+      <li>Listening to sacred epics like <strong>Mahabharatham</strong>, <strong>Ramayanam</strong>, and <strong>Bhagavad Gita</strong> for cultural wisdom</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:satyapinapothula19@gmail.com">satyapinapothula19@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+919010229891">+91 9010229891</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/satya-sai-durga-pinapothula-1064942b2" target="_blank" rel="noopener noreferrer">View Profile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Pinapothula Satya Sai Durga</p>
+  </footer>
+
+</body>
+</html>
